@@ -23,7 +23,7 @@ print("=" * 60)
 # Create Car Age
 # ------------------------------------------
 
-CURRENT_YEAR = 2025
+CURRENT_YEAR = 2026
 
 df["Car_Age"] = CURRENT_YEAR - df["Year"]
 
