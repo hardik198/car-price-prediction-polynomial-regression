@@ -23,7 +23,9 @@ print("=" * 60)
 # Create Car Age
 # ------------------------------------------
 
-CURRENT_YEAR = 2026
+from datetime import datetime
+
+CURRENT_YEAR = datetime.now().year
 
 df["Car_Age"] = CURRENT_YEAR - df["Year"]
 
